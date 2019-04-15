@@ -1,27 +1,40 @@
 ﻿body {
     background-color: rgba(56, 182, 230, 0.62);
-	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
     margin:0;
     padding: 0;
     height:100%;
-    background-size: 0;
+    
+
+}
+label{
+    color: white;
 }
 
 #account {
-    background-color: rgba(237, 84, 76, 0.62);
-	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
     margin:0;
     padding: 0;
     height:100%;
     background-size: 0;
+      background-image: url(iStock_80604393_LARGE.jpg);
+    /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 #header {
     background-color: rgba(255,255,255,0.7);
     margin: 0;
-    padding: 0;
+    margin-top: -20px;
+    padding: 50;
     padding-left: 15px;
-    height: 60px;
+    height: 40px;
+    
 }
 
 .title {
@@ -79,7 +92,7 @@
 
 .email, .score, .dept{
     width: 500px;
-	background-color: rgba(255,255,255,0.7);
+    background-color: rgba(255,255,255,0.7);
 }
 
 svg path {
@@ -90,22 +103,25 @@ svg path {
 }
 
 #searchbar{ 
-	width: 250px;
-	height: 20px;
-	margin-right: 25px;
-	border-radius: 25px;
-	background-color: rgba(255,255,255,0.7);		
+    width: 250px;
+    height: 20px;
+    margin-right: 25px;
+    border-radius: 25px;
+    background-color: rgba(255,255,255,0.7);        
 }
 
 #minScore, #maxScore, #sortFilter{ 
-	width: 100px;
-	height: 20px;
-	margin-right: 25px;
-	border-radius: 25px;
-	background-color: rgba(255,255,255,0.7);
+    width: 100px;
+    height: 20px;
+    margin-right: 25px;
+    border-radius: 25px;
+    background-color: rgba(255,255,255,0.7);
 }
 
 #sortFilter {height: 30px;}
 
 
 #searchButton, #feedbackButton, #emailtodb, #loginButton {height: 30px; background-color: rgba(255,255,255,0.9);}
+
+
+
